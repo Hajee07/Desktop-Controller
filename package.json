@@ -1,0 +1,50 @@
+{
+  "name": "windows-laptop-control-mcp",
+  "version": "3.0.0",
+  "description": "Local, authorized Windows automation over MCP STDIO",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.15.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/build-native.mjs",
+    "start": "node dist/index.js",
+    "test": "node scripts/run-tests.mjs",
+    "test:smoke": "tsx scripts/smoke.ts",
+    "test:academic": "tsx scripts/academic-smoke.ts",
+    "check": "npm run build && npm test && npm run test:smoke && npm run test:academic",
+    "configure": "tsx scripts/configure.ts",
+    "stop": "node scripts/emergency-stop.mjs",
+    "reference": "node scripts/generate-tool-reference.mjs",
+    "register:preview": "node scripts/register-codex.mjs",
+    "dashboard": "node scripts/dashboard.mjs",
+    "worker": "node dist/runtime/worker.js"
+  },
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@modelcontextprotocol/server": "2.4.0",
+    "docx": "^9.5.0",
+    "fast-xml-parser": "^5.3.0",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.11.0",
+    "mysql2": "^3.15.0",
+    "pdf-parse": "^2.4.5",
+    "pdfkit": "^0.17.2",
+    "pg": "^8.16.0",
+    "playwright": "^1.56.0",
+    "pptxgenjs": "4.0.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "@types/node": "^24.0.0",
+    "@types/pdfkit": "^0.17.3",
+    "@types/pg": "^8.15.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "overrides": {
+    "image-size": "2.0.4"
+  }
+}

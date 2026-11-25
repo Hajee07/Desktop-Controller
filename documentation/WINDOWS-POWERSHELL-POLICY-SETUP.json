@@ -1,0 +1,36 @@
+﻿{
+    "accepted":  true,
+    "changed":  true,
+    "command":  "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force",
+    "before":  {
+                   "effective":  "Restricted",
+                   "scopes":  [
+                                  {
+                                      "scope":  "MachinePolicy",
+                                      "policy":  "Undefined"
+                                  },
+                                  {
+                                      "scope":  "UserPolicy",
+                                      "policy":  "Undefined"
+                                  },
+                                  {
+                                      "scope":  "Process",
+                                      "policy":  "Undefined"
+                                  },
+                                  {
+                                      "scope":  "CurrentUser",
+                                      "policy":  "Undefined"
+                                  },
+                                  {
+                                      "scope":  "LocalMachine",
+                                      "policy":  "Undefined"
+                                  }
+                              ]
+               },
+    "after":  {
+                  "effective":  "RemoteSigned",
+                  "currentUser":  "RemoteSigned"
+              },
+    "backup":  "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\backups\\windows-powershell-policy-before-20261104-005816.json",
+    "rollback":  "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Undefined -Force"
+}

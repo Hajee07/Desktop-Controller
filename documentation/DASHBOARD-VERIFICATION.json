@@ -1,0 +1,16 @@
+{
+  "visible": true,
+  "pid": 15844,
+  "title": "Windows Laptop Control MCP — Codex Execution Dashboard",
+  "capture": {
+    "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\actual-dashboard-final.png",
+    "width": 1100,
+    "height": 760,
+    "mode": "window",
+    "genuineCapture": true,
+    "sha256": "4de28eb0274a9a1385a02017327b4fbcfe8d2d43192269956b485613a4557490",
+    "provenance": "actual Windows capture; no synthetic evidence"
+  },
+  "scope": "Actual final native dashboard window; button actions and floating panel not clicked in this acceptance",
+  "visualReview": "Inspected final 1100x760 capture: current state, eleven tab views with scroll controls and top task/emergency controls visible. Floating panel actions not clicked."
+}

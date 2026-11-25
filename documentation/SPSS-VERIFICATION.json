@@ -1,0 +1,713 @@
+{
+  "date": "2026-11-11T18:34:26.407Z",
+  "scope": "Generated data over the actual STDIO MCP entry point and IBM SPSS 27 backend",
+  "checks": [
+    {
+      "name": "STDIO discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "SPSS 27 environment",
+      "status": "PASS",
+      "directory": "C:\\Program Files\\IBM\\SPSS\\Statistics\\27",
+      "python": "C:\\Program Files\\IBM\\SPSS\\Statistics\\27\\Python3\\python.exe",
+      "version": "27.0.1.0",
+      "product": "IBM SPSS Statistics 27",
+      "installedCommandCount": 328,
+      "sessionId": null,
+      "supportedFileGateways": [
+        "sav",
+        "zsav",
+        "por",
+        "csv",
+        "txt",
+        "xls",
+        "xlsx",
+        "dta",
+        "sas7bdat"
+      ]
+    },
+    {
+      "name": "Persistent backend start",
+      "status": "PASS"
+    },
+    {
+      "name": "Native module/license discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "Open native SAV",
+      "status": "PASS"
+    },
+    {
+      "name": "Dictionary and data pagination",
+      "status": "PASS"
+    },
+    {
+      "name": "Syntax and filesystem restrictions",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_run_analysis",
+      "status": "PASS",
+      "syntax": "DESCRIPTIVES VARIABLES=x y.",
+      "executionId": "f4bcb116-bb55-495b-a073-dc4dcbf17a32"
+    },
+    {
+      "name": "Actual numeric OMS mean 30.5",
+      "status": "PASS"
+    },
+    {
+      "name": "Idempotent execution replay",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export spv",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export xml",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export xlsx",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export html",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export text",
+      "status": "PASS"
+    },
+    {
+      "name": "Native output export sps",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_run_statistical_test",
+      "status": "PASS",
+      "syntax": "T-TEST GROUPS=grp(0 1) /VARIABLES=y.",
+      "executionId": "dc25aeed-3629-461e-8be2-16e56c074fe8"
+    },
+    {
+      "name": "spss_run_anova",
+      "status": "PASS",
+      "syntax": "ONEWAY y BY grp /STATISTICS DESCRIPTIVES HOMOGENEITY.",
+      "executionId": "7a5e9b92-6878-478a-a174-75db3a0c372b"
+    },
+    {
+      "name": "spss_run_statistical_test",
+      "status": "PASS",
+      "syntax": "CROSSTABS /TABLES=grp BY event /STATISTICS=CHISQ.",
+      "executionId": "6283ba5d-cbdd-479b-a002-e0d9768c31da"
+    },
+    {
+      "name": "spss_run_correlation",
+      "status": "PASS",
+      "syntax": "CORRELATIONS /VARIABLES=x z y.",
+      "executionId": "7bd94349-e5e8-4dc8-ad41-d872c96b5739"
+    },
+    {
+      "name": "spss_run_regression",
+      "status": "PASS",
+      "syntax": "REGRESSION /DEPENDENT y /METHOD=ENTER x z.",
+      "executionId": "229ff84e-3039-42dd-b715-c68c52941ffc"
+    },
+    {
+      "name": "spss_run_factor_analysis",
+      "status": "PASS",
+      "syntax": "FACTOR /VARIABLES x z y /EXTRACTION=PC.",
+      "executionId": "cea32709-60d1-4c86-8fa0-1d385637af59"
+    },
+    {
+      "name": "spss_run_cluster_analysis",
+      "status": "PASS",
+      "syntax": "QUICK CLUSTER x z y /CRITERIA=CLUSTER(2).",
+      "executionId": "8f625466-ec10-436d-9d52-a50c94dcc096"
+    },
+    {
+      "name": "spss_run_survival_analysis",
+      "status": "PASS",
+      "syntax": "KM time /STATUS=event(1).",
+      "executionId": "d561c56b-ee29-4d96-9f9d-e8e196568ce2"
+    },
+    {
+      "name": "spss_run_forecasting",
+      "status": "PASS",
+      "syntax": "ARIMA y /MODEL=(1,0,0) /MXITER=5.",
+      "executionId": "f35089bb-25bb-4126-9fd6-765f12369f87"
+    },
+    {
+      "name": "spss_run_decision_tree",
+      "status": "PASS",
+      "syntax": "TREE grp [N] BY x [S] z [S] /METHOD TYPE=CHAID /TREE DISPLAY=NONE.",
+      "executionId": "408644bb-3815-425c-bc5c-6515e69b99d9"
+    },
+    {
+      "name": "spss_run_neural_network",
+      "status": "PASS",
+      "syntax": "MLP y WITH x z /PLOT NONE.",
+      "executionId": "833b6277-6226-4903-ad6f-d8701d1209f6"
+    },
+    {
+      "name": "spss_run_bootstrap",
+      "status": "PASS",
+      "syntax": "BOOTSTRAP /SAMPLING METHOD=SIMPLE /CRITERIA NSAMPLES=100.\nCORRELATIONS /VARIABLES=x y.",
+      "executionId": "94155576-d5c2-4ec5-ad68-c1f153bd135c"
+    },
+    {
+      "name": "spss_run_power_analysis",
+      "status": "PASS",
+      "syntax": "POWER MEANS ONESAMPLE /PARAMETERS N=30 SD=1 MEAN=0.3 NULL=0.",
+      "executionId": "6b3c787d-ce04-423c-8597-ab8e0538223c"
+    },
+    {
+      "name": "spss_create_chart",
+      "status": "PASS",
+      "syntax": "GRAPH /HISTOGRAM(NORMAL)=y.",
+      "executionId": "87fc04de-017a-4cbf-a843-aec2ef913101"
+    },
+    {
+      "name": "STDIO discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "SPSS 27 environment",
+      "status": "PASS",
+      "directory": "C:\\Program Files\\IBM\\SPSS\\Statistics\\27",
+      "python": "C:\\Program Files\\IBM\\SPSS\\Statistics\\27\\Python3\\python.exe",
+      "version": "27.0.1.0",
+      "product": "IBM SPSS Statistics 27",
+      "installedCommandCount": 328,
+      "sessionId": null,
+      "supportedFileGateways": [
+        "sav",
+        "zsav",
+        "por",
+        "csv",
+        "txt",
+        "xls",
+        "xlsx",
+        "dta",
+        "sas7bdat"
+      ]
+    },
+    {
+      "name": "Persistent backend start",
+      "status": "PASS"
+    },
+    {
+      "name": "Native module/license discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_compute_variable",
+      "status": "PASS",
+      "syntax": "COMPUTE doubled=x*2.\nEXECUTE.",
+      "executionId": "3f0b9730-ceab-44d9-a25b-2a1aab248852"
+    },
+    {
+      "name": "spss_manage_value_labels",
+      "status": "PASS",
+      "syntax": "VALUE LABELS grp 0 'Group A' 1 'Group B'.",
+      "executionId": "2380f85a-e32e-4a07-8b48-82846d73342c"
+    },
+    {
+      "name": "spss_manage_missing_values",
+      "status": "PASS",
+      "syntax": "MISSING VALUES doubled (-999).",
+      "executionId": "be9e9a1d-0daf-493f-8e7a-de8d34ec49c9"
+    },
+    {
+      "name": "spss_sort_cases",
+      "status": "PASS",
+      "syntax": "SORT CASES BY x (D).",
+      "executionId": "6fc196ae-d58f-4138-a61b-3ce448357cbf"
+    },
+    {
+      "name": "STDIO discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "SPSS 27 environment",
+      "status": "PASS",
+      "directory": "C:\\Program Files\\IBM\\SPSS\\Statistics\\27",
+      "python": "C:\\Program Files\\IBM\\SPSS\\Statistics\\27\\Python3\\python.exe",
+      "version": "27.0.1.0",
+      "product": "IBM SPSS Statistics 27",
+      "installedCommandCount": 328,
+      "sessionId": null,
+      "supportedFileGateways": [
+        "sav",
+        "zsav",
+        "por",
+        "csv",
+        "txt",
+        "xls",
+        "xlsx",
+        "dta",
+        "sas7bdat"
+      ]
+    },
+    {
+      "name": "Persistent backend start",
+      "status": "PASS"
+    },
+    {
+      "name": "Native module/license discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_compute_variable",
+      "status": "PASS",
+      "syntax": "COMPUTE doubled=x*2.\nEXECUTE.",
+      "executionId": "a1bf6378-b732-4e5a-9ba3-0fe18222913d"
+    },
+    {
+      "name": "spss_manage_value_labels",
+      "status": "PASS",
+      "syntax": "VALUE LABELS grp 0 'Group A' 1 'Group B'.",
+      "executionId": "3b7c4fd9-c52e-40bd-b265-6039fba9cc43"
+    },
+    {
+      "name": "spss_manage_missing_values",
+      "status": "PASS",
+      "syntax": "MISSING VALUES doubled (-999).",
+      "executionId": "fa1ef99f-d771-43e1-ac28-71edf596fd1a"
+    },
+    {
+      "name": "spss_sort_cases",
+      "status": "PASS",
+      "syntax": "SORT CASES BY x (D).",
+      "executionId": "e8c23340-e7e8-4076-91cd-89464b18335a"
+    },
+    {
+      "name": "Bounded bundled Python integration",
+      "status": "PASS"
+    },
+    {
+      "name": "Save working copy",
+      "status": "PASS"
+    },
+    {
+      "name": "Original overwrite and stale revision guards",
+      "status": "PASS"
+    },
+    {
+      "name": "Failed mutation rollback",
+      "status": "PASS"
+    },
+    {
+      "name": "Restart checkpoint recovery",
+      "status": "PASS"
+    },
+    {
+      "name": "Create, copy, rename, merge and close datasets",
+      "status": "PASS"
+    },
+    {
+      "name": "Original dataset hash preserved",
+      "status": "PASS"
+    }
+  ],
+  "capabilities": {
+    "version": "27.0.1.0",
+    "modules": [
+      {
+        "id": "BASE",
+        "name": "IBM SPSS Statistics Base",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Statistics Base"
+      },
+      {
+        "id": "PRO_STATS",
+        "name": "IBM SPSS Regression",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Regression"
+      },
+      {
+        "id": "ADVANCED_STATS",
+        "name": "IBM SPSS Advanced Statistics",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Advanced Statistics"
+      },
+      {
+        "id": "TRENDS",
+        "name": "IBM SPSS Forecasting",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Forecasting"
+      },
+      {
+        "id": "TREEVIEW",
+        "name": "IBM SPSS Decision Trees",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Decision Trees"
+      },
+      {
+        "id": "NEURAL_NETWORK",
+        "name": "IBM SPSS Neural Networks",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Neural Networks"
+      },
+      {
+        "id": "BOOTSTRAPPING",
+        "name": "IBM SPSS Bootstrapping",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Bootstrapping"
+      },
+      {
+        "id": "COMPLEX_SAMPLE",
+        "name": "IBM SPSS Complex Samples",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Complex Samples"
+      },
+      {
+        "id": "MISSING_VALUES",
+        "name": "IBM SPSS Missing Values",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Missing Values"
+      },
+      {
+        "id": "MARKET_RESEARCH",
+        "name": "IBM SPSS Categories",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Categories"
+      },
+      {
+        "id": "CUSTOM_TABLES",
+        "name": "IBM SPSS Custom Tables",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Custom Tables"
+      },
+      {
+        "id": "CYTEL",
+        "name": "IBM SPSS Exact Tests",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Exact Tests"
+      },
+      {
+        "id": "CONJOINT",
+        "name": "IBM SPSS Conjoint",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Conjoint"
+      },
+      {
+        "id": "VALIDATEDATA",
+        "name": "IBM SPSS Data Preparation",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Data Preparation"
+      },
+      {
+        "id": "RFM",
+        "name": "IBM SPSS Direct Marketing",
+        "status": "AVAILABLE",
+        "evidence": "Native SHOW LICENSE output",
+        "requiredLicense": "IBM SPSS Direct Marketing"
+      }
+    ],
+    "procedures": [
+      {
+        "name": "descriptive",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "FREQUENCIES",
+          "DESCRIPTIVES",
+          "EXAMINE",
+          "CROSSTABS",
+          "MEANS",
+          "SUMMARIZE"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "tests",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "T-TEST",
+          "ONEWAY",
+          "NPAR TESTS",
+          "NPTESTS",
+          "CROSSTABS"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "correlation",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "CORRELATIONS",
+          "NONPAR CORR",
+          "PARTIAL CORR"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "regression",
+        "requiredModule": "PRO_STATS",
+        "requiredLicense": "IBM SPSS Regression",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "REGRESSION",
+          "LOGISTIC REGRESSION",
+          "NOMREG",
+          "PLUM",
+          "NLR",
+          "CNLR",
+          "WLS",
+          "2SLS"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "anova",
+        "requiredModule": "ADVANCED_STATS",
+        "requiredLicense": "IBM SPSS Advanced Statistics",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "ONEWAY",
+          "UNIANOVA",
+          "GLM",
+          "MANOVA",
+          "GENLIN",
+          "GENLINMIXED",
+          "MIXED",
+          "VARCOMP"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "factor",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "FACTOR",
+          "RELIABILITY"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "cluster",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "CLUSTER",
+          "QUICK CLUSTER",
+          "TWOSTEP CLUSTER",
+          "DISCRIMINANT",
+          "PROXIMITIES"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "survival",
+        "requiredModule": "ADVANCED_STATS",
+        "requiredLicense": "IBM SPSS Advanced Statistics",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "KM",
+          "COXREG",
+          "SURVIVAL",
+          "LOGLINEAR",
+          "GENLOG",
+          "HILOGLINEAR"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "forecasting",
+        "requiredModule": "TRENDS",
+        "requiredLicense": "IBM SPSS Forecasting",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "ACF",
+          "PACF",
+          "ARIMA",
+          "EXSMOOTH",
+          "TSMODEL",
+          "TSPLOT",
+          "SPECTRA",
+          "SEASON",
+          "DATE"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "decision_tree",
+        "requiredModule": "TREEVIEW",
+        "requiredLicense": "IBM SPSS Decision Trees",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "TREE"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "neural_network",
+        "requiredModule": "NEURAL_NETWORK",
+        "requiredLicense": "IBM SPSS Neural Networks",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "MLP",
+          "RBF"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "bootstrap",
+        "requiredModule": "BOOTSTRAPPING",
+        "requiredLicense": "IBM SPSS Bootstrapping",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "BOOTSTRAP"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "power",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "POWER MEANS ONESAMPLE",
+          "POWER MEANS INDEPENDENT",
+          "POWER MEANS RELATED",
+          "POWER ONEWAY ANOVA",
+          "POWER PROPORTIONS ONESAMPLE",
+          "POWER PROPORTIONS INDEPENDENT",
+          "POWER PROPORTIONS RELATED",
+          "POWER PEARSON ONESAMPLE",
+          "POWER SPEARMAN ONESAMPLE",
+          "POWER PARTIALCORR"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "complex_samples",
+        "requiredModule": "COMPLEX_SAMPLE",
+        "requiredLicense": "IBM SPSS Complex Samples",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "CSDESCRIPTIVES",
+          "CSTABULATE",
+          "CSGLM",
+          "CSLOGISTIC",
+          "CSORDINAL",
+          "CSCOXREG"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "missing_values",
+        "requiredModule": "MISSING_VALUES",
+        "requiredLicense": "IBM SPSS Missing Values",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "MVA",
+          "MULTIPLE IMPUTATION"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "categories",
+        "requiredModule": "MARKET_RESEARCH",
+        "requiredLicense": "IBM SPSS Categories",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "CATPCA",
+          "CATREG",
+          "CORRESPONDENCE",
+          "OVERALS",
+          "HOMALS",
+          "ANACOR",
+          "PREFSCAL",
+          "PROXSCAL"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "tables",
+        "requiredModule": "CUSTOM_TABLES",
+        "requiredLicense": "IBM SPSS Custom Tables",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "CTABLES"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      },
+      {
+        "name": "chart",
+        "requiredModule": "BASE",
+        "requiredLicense": "IBM SPSS Statistics Base",
+        "integrationMethod": "SPSS 27 syntax / Python bridge",
+        "commands": [
+          "GRAPH",
+          "PPLOT",
+          "ROC",
+          "ROC ANALYSIS",
+          "CASEPLOT"
+        ],
+        "status": "AVAILABLE_WITH_LIMITATIONS",
+        "limitations": "Installed definitions and license are detected. Individual syntax and data assumptions are verified at execution. Filesystem subcommands use dedicated file tools."
+      }
+    ],
+    "python": {
+      "status": "AVAILABLE_WITH_LIMITATIONS",
+      "integrationMethod": "bundled Python 3.8",
+      "limitations": "Numerical expressions and native dataset APIs. Arbitrary Python programs require a separate reviewed execution integration."
+    },
+    "r": {
+      "status": "DEPENDENCY_MISSING",
+      "runtimeCandidates": [],
+      "evidence": "Checked standard local R and SPSS R installation directories. A live SPSS R execution bridge has not been verified."
+    },
+    "extensions": []
+  },
+  "toolCount": 232,
+  "status": "PASS",
+  "sessionId": "ce4d3264-69c4-48ec-8ea3-9b5eba319e5f"
+}

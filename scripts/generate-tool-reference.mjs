@@ -1,0 +1,11 @@
+import{readFile,writeFile}from'node:fs/promises';
+import path from'node:path';
+import{fileURLToPath}from'node:url';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const tools=JSON.parse(await readFile(path.join(project,'documentation','tool-manifest.json'),'utf8'));
+let md='# MCP tool reference\n\nGenerated from the actual STDIO tools/list response. All paths are absolute Windows paths. Write tools default to preview (`dryRun: true`). Required properties are marked in each JSON Schema; schemas are authoritative. Run `npm run test:smoke` to refresh discovery, then this generator.\n\n';
+md+='| Tool | Read only | Destructive hint |\n|---|---|---|\n';
+for(const t of tools)md+=`| [${t.name}](#${t.name.replaceAll('_','')}) | ${Boolean(t.annotations?.readOnlyHint)} | ${Boolean(t.annotations?.destructiveHint)} |\n`;
+for(const t of tools)md+=`\n## ${t.name}\n\n${t.description}\n\n\`\`\`json\n${JSON.stringify(t.inputSchema,null,2)}\n\`\`\`\n`;
+await writeFile(path.join(project,'documentation','TOOLS.md'),md);
+console.log(`Generated reference for ${tools.length} tools.`);

@@ -1,0 +1,32 @@
+{
+  "root": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-acceptance-1793796661371",
+  "target": {
+    "documentId": "4ed0e150c14cb36720d99ff3fe6e6c31a94c0ab15c02f2aaa3b8300d5ca2949f",
+    "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-acceptance-1793796661371\\Sample-Assignment.docx"
+  },
+  "edit": {
+    "transactionId": "7d1b914c-775b-4a5f-9404-a21553a52784",
+    "documentId": "4ed0e150c14cb36720d99ff3fe6e6c31a94c0ab15c02f2aaa3b8300d5ca2949f",
+    "beforeRevision": "c636ecdbca846215c1c9321764b0b0442efc3f8c2ce9f840ed42ff0d3396c897",
+    "revision": "8ccdae48dfe7fd2785a9507ecfe103c50b0b7895b35d454e8a114dc5e0ccf201",
+    "applied": 1,
+    "saved": false,
+    "checkpointPath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\.state\\backups\\8887c5d0-0f30-4c7d-b3e9-c52375602609.word.xml"
+  },
+  "after": {
+    "document": {
+      "documentId": "4ed0e150c14cb36720d99ff3fe6e6c31a94c0ab15c02f2aaa3b8300d5ca2949f",
+      "name": "Sample-Assignment.docx",
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-acceptance-1793796661371\\Sample-Assignment.docx",
+      "saved": true,
+      "readOnly": false,
+      "windowId": 787886
+    },
+    "revision": "d6e229695099e87946199a5524f6aaa9ee78a65951bf87b82c1dbd4948822e01",
+    "contentEnd": 200,
+    "paragraphs": 6,
+    "tables": 0,
+    "images": 0,
+    "trackChanges": false
+  }
+}

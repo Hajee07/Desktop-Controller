@@ -1,0 +1,99 @@
+{
+  "verifiedAt": "2026-11-04",
+  "connection": "Actual tools in this Codex chat, not a standalone test client",
+  "health": {
+    "version": "3.0.0",
+    "transport": "stdio",
+    "reasoning": "Codex host only",
+    "pid": 15704,
+    "uptimeSeconds": 60,
+    "stopped": false,
+    "nativeOfficeBuilt": true,
+    "concurrency": {
+      "deterministicJobs": 1,
+      "foregroundMutations": "serialized",
+      "office": "STA, serialized"
+    },
+    "configurationRequiresReconnect": true
+  },
+  "resources": {
+    "memory": {
+      "rss": 155271168,
+      "heapTotal": 81035264,
+      "heapUsed": 79110896,
+      "external": 5102854,
+      "arrayBuffers": 882531
+    },
+    "hostTotalMemoryBytes": 16869351424,
+    "hostFreeMemoryBytes": 7818518528,
+    "cpus": 16,
+    "cpuUsage": {
+      "user": 1453000,
+      "system": 1078000
+    }
+  },
+  "tools": 163,
+  "storage": {
+    "quotaBytes": 20000000000,
+    "usedBytes": 2060284813,
+    "availableQuotaBytes": 17939715187,
+    "categories": {
+      "documents": 643995955,
+      "images": 395119657,
+      "research": 0,
+      "temporary": 0,
+      "history": 2553448,
+      "reserved": 1018615753
+    },
+    "categoryLimits": {
+      "documents": 5000000000,
+      "images": 5000000000,
+      "research": 3000000000,
+      "temporary": 3000000000,
+      "history": 1000000000,
+      "reserved": 3000000000
+    },
+    "projectDriveFreeBytes": 22872395776,
+    "minFreeBytes": 5368709120,
+    "fileCount": 2001,
+    "scope": "Authorized roots plus protected server state; originals count but are never automatically removed"
+  },
+  "wordDiscovery": {
+    "authorizedDocuments": 3,
+    "attachedInstances": 1
+  },
+  "word": {
+    "target": {
+      "documentId": "bcbf80170f8d85f42c599a63f94513e935c240a48cd5c8d5f29f7c31475e025c",
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\recovery-acceptance-1793800384965\\Owned-Recovery-Fixture.docx"
+    },
+    "edit": {
+      "transactionId": "669d711d-d030-4428-b6ed-b129651f396c",
+      "documentId": "bcbf80170f8d85f42c599a63f94513e935c240a48cd5c8d5f29f7c31475e025c",
+      "beforeRevision": "02640124c34721aef6705ff793d284b4d99541f06f0895355bbb9048d58be5f9",
+      "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff",
+      "applied": 1,
+      "saved": false,
+      "checkpointPath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\.state\\backups\\5ace944d-7e4a-4bb3-be4f-2683eea659a8.word.xml"
+    },
+    "save": {
+      "saved": true,
+      "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff"
+    },
+    "readback": {
+      "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff",
+      "insertedParagraph": {
+        "index": 3,
+        "start": 34,
+        "end": 141,
+        "text": "Verified through the connected Codex MCP session: native Word editing works without closing this document.",
+        "level": 10,
+        "style": "Normal",
+        "number": "",
+        "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff"
+      },
+      "originalParagraphPreserved": true
+    }
+  },
+  "scope": "Owned recovery fixture only; personal assignment documents unchanged"
+}

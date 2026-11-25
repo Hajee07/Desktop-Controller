@@ -1,0 +1,63 @@
+{
+  "source": "D:\\Assignment Files\\Assignment Files\\DSA\\DSA.docx",
+  "sourceBytes": 113846213,
+  "sourceSha256": "dca1143f799d0a54922c110f021b8566ccd8063790b27482d3702173114f75ff",
+  "unchanged": true,
+  "expandedPackageBytes": 115330950,
+  "xmlBytes": 1731648,
+  "mediaBytes": 113599302,
+  "results": {
+    "filesystem_read": {
+      "passed": true,
+      "durationMs": 535,
+      "characters": 250000,
+      "truncated": true,
+      "sha256": "dca1143f799d0a54922c110f021b8566ccd8063790b27482d3702173114f75ff"
+    },
+    "academic_document_extract": {
+      "passed": true,
+      "durationMs": 1011,
+      "segments": 802,
+      "tables": 29,
+      "imageReferences": 100,
+      "warnings": [
+        "Structured extraction reached the text/segment limit.",
+        "DOCX page numbers are not inferred. Headers/footers may vary by section; layout requires rendering."
+      ]
+    },
+    "academic_style_analyse": {
+      "passed": true,
+      "durationMs": 843,
+      "paragraphs": 1271
+    },
+    "academic_document_quality": {
+      "passed": true,
+      "durationMs": 1694,
+      "paragraphs": 1271,
+      "machineChecksPassed": true,
+      "visualReview": "needs_review"
+    }
+  },
+  "limits": {
+    "maxOfficeArchiveBytes": 2147483648,
+    "maxOfficeXmlBytes": 41943040
+  },
+  "personalDocumentWritten": false,
+  "focusedRegressionTests": {
+    "passed": 33,
+    "failed": 0,
+    "scope": [
+      "filesystem",
+      "Office archive guards",
+      "academic document generation/style/quality/patch",
+      "orchestration/deliverable inspection"
+    ]
+  },
+  "fullSuite": "Not rerun; existing native PowerShell policy and symlink privilege failures are outside this fix.",
+  "restartRequired": true,
+  "additionalExtractionTests": {
+    "passed": 8,
+    "failed": 1,
+    "failure": "Existing Windows PowerShell execution-policy block in scanned PDF OCR; no policy changed"
+  }
+}

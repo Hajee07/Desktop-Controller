@@ -1,0 +1,12 @@
+{
+  "name": "hajzyy-local",
+  "interface": { "displayName": "Hajzyy Local" },
+  "plugins": [
+    {
+      "name": "hajzyy-mcp",
+      "source": { "source": "local", "path": "./hajzyy-mcp" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

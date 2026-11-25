@@ -1,0 +1,13 @@
+{
+  "url": "https://www.onlinegantt.com/#/gantt",
+  "dedicatedProfile": true,
+  "installedChrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "approval": "Explicit user-requested site; test adapter acknowledgment, production host/local confirmation not tested",
+  "result": {
+    "tab": 2,
+    "url": "https://www.onlinegantt.com/#/gantt",
+    "title": "Free Online Gantt Chart Software"
+  },
+  "confirmationCallbacks": 1,
+  "reached": true
+}

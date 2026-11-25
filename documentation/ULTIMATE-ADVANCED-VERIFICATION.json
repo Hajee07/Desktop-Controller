@@ -1,0 +1,15 @@
+{
+  "actualCell": "42",
+  "headerFooterPageNumbers": "applied/saved/PDF exported",
+  "crop": {
+    "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\derived-word-crop.png",
+    "width": 900,
+    "height": 480,
+    "kind": "derived-image",
+    "originalUnchanged": true,
+    "sourcePath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\actual-word-window.png",
+    "sourceSha256": "1eeb7a9a5212f963e9bfd4eebd71fa8f654f86912e1112bf18690b6621c6dbde",
+    "sha256": "3a2b774a43051ae28f3b28cb2fa6f7699eaa3dda3c1f921e63783d19986b6ed2"
+  },
+  "originalAssignmentFilesModified": false
+}

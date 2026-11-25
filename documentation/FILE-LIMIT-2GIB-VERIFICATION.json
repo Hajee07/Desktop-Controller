@@ -1,0 +1,36 @@
+{
+  "fileLimitBytes": 2147483648,
+  "unit": "2 GiB",
+  "previousFileLimitBytes": 10485760,
+  "changedConfigFields": [
+    "maxReadBytes"
+  ],
+  "backup": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\backups\\before-2gb-limit-20261104-001601.zip",
+  "verification": {
+    "build": "passed",
+    "focusedTests": {
+      "passed": 25,
+      "failed": 0
+    },
+    "exact2GiBFile": "copy dry-run accepted after full streamed SHA256; no 2 GiB transfer performed",
+    "twoGiBPlusOne": "file operation and backup rejected",
+    "backupRestore": "actual 101 MiB fixture round-trip and tampered backup rejection passed",
+    "boundedUnicodeRead": "passed; SHA256 covers full input",
+    "stdioToolsDiscovered": 115,
+    "invalidSchemasExercised": 95,
+    "academicFixtureFormats": [
+      "docx",
+      "pdf",
+      "xlsx",
+      "pptx"
+    ],
+    "fullSuite": "not rerun; existing PowerShell/symlink environment failures remain unresolved"
+  },
+  "separateLimitsRetained": [
+    "250000 extracted text characters",
+    "Office 40 MiB decompression and 5000 entries",
+    "image/segment/output budgets",
+    "90000 ms tool timeout"
+  ],
+  "restartRequired": true
+}

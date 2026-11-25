@@ -1,0 +1,39 @@
+{
+  "backup": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\config.backup-before-any-http-browser-1793874507591.json",
+  "previousOrigins": [
+    "https://example.com",
+    "http://127.0.0.1:4173"
+  ],
+  "authorizedOrigins": [
+    "*"
+  ],
+  "policy": "Any ordinary HTTP(S) origin; URL credential/sensitive-query checks, dedicated browser profile and form/mutation approvals remain",
+  "codingApprovalPolicyChanged": false,
+  "siteRequested": "https://www.onlinegantt.com/#/gantt",
+  "freshStdioPreview": {
+    "origins": [
+      "*",
+      "https://www.onlinegantt.com"
+    ],
+    "accepted": [
+      "https://www.onlinegantt.com/#/gantt",
+      "https://www.wikipedia.org/",
+      "http://127.0.0.1:4173/"
+    ],
+    "credentialLikeQueryDenied": true,
+    "serverTools": 163
+  },
+  "actualRequestedSite": {
+    "url": "https://www.onlinegantt.com/#/gantt",
+    "dedicatedProfile": true,
+    "installedChrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "approval": "Explicit user-requested site; test adapter acknowledgment, production host/local confirmation not tested",
+    "result": {
+      "tab": 2,
+      "url": "https://www.onlinegantt.com/#/gantt",
+      "title": "Free Online Gantt Chart Software"
+    },
+    "confirmationCallbacks": 1,
+    "reached": true
+  }
+}

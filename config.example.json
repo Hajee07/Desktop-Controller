@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "authorizedRoots": [
+    "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace"
+  ],
+  "stateDir": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\.state",
+  "maxDocumentProcessingBytes": 268435456,
+  "maxReadBytes": 2147483648,
+  "maxOfficeArchiveBytes": 2147483648,
+  "maxOfficeXmlBytes": 41943040,
+  "maxSearchEntries": 10000,
+  "toolTimeoutMs": 90000,
+  "applications": {
+    "notepad": {
+      "executable": "C:\\WINDOWS\\System32\\notepad.exe",
+      "args": [],
+      "processNames": [
+        "notepad"
+      ]
+    }
+  },
+  "desktop": {
+    "enabled": false,
+    "allowedProcesses": [],
+    "presenceMaxIdleSeconds": 120,
+    "captureEnabled": false
+  },
+  "browser": {
+    "enabled": true,
+    "allowedOrigins": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000"
+    ],
+    "headless": false
+  },
+  "commands": {
+    "node-version": {
+      "executable": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "--version"
+      ],
+      "description": "Show Node.js version",
+      "requiresConfirmation": false,
+      "allowNetwork": false
+    }
+  },
+  "databases": {},
+  "storage": {
+    "quotaBytes": 20000000000,
+    "minFreeBytes": 5368709120
+  },
+  "permissions": {
+    "automaticWorkspaceEdits": false,
+    "automaticCapture": false
+  }
+}

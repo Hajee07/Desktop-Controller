@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "excel_format": true,
+    "excel_table": true,
+    "excel_chart": true,
+    "powerpoint_notes": true,
+    "powerpoint_table": true,
+    "powerpoint_image": true
+  },
+  "scope": "Actual native operations on owned fixture workbook/presentation only"
+}

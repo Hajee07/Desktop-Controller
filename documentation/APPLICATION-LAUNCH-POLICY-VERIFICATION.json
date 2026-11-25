@@ -1,0 +1,24 @@
+{
+  "installedAppsDiscovered": 94,
+  "configuredApps": [
+    "notepad",
+    "chrome",
+    "vscode",
+    "word"
+  ],
+  "installedLaunchPreview": "passed",
+  "hostElicitationRequests": 0,
+  "liveNotepadLaunch": {
+    "passed": true,
+    "result": "{\"launched\":true,\"processId\":11468,\"executable\":\"C:\\\\Windows\\\\System32\\\\notepad.exe\"}"
+  },
+  "tests": {
+    "passed": 13,
+    "failed": 0
+  },
+  "hostPolicyTools": [
+    "application_open",
+    "application_discover"
+  ],
+  "restartRequired": true
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "dispatched": true,
+    "pid": 10676,
+    "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\coding\\main.js",
+    "line": 1,
+    "reuseWindow": true,
+    "sha256": "7d4be1e108ac1e5f40d3bebbef1e099e47dd83d6ef333f3677da8c036b54a85c",
+    "evidence": "CLI dispatch; inspect application state before claiming editor content or screenshots"
+  },
+  "scope": "Actual approved CLI dispatch only. Active editor, unsaved buffer integration, visible line position and screenshot not verified."
+}

@@ -1,0 +1,326 @@
+{
+  "verifiedAt": "2026-11-04T14:14:06.753Z",
+  "scope": "Fresh client using the actual registered local STDIO executable/project. Native acceptance and unit/regression outcomes are separate evidence, not all-tools live coverage.",
+  "health": {
+    "version": "3.0.0",
+    "transport": "stdio",
+    "reasoning": "Codex host only",
+    "pid": 20596,
+    "uptimeSeconds": 2,
+    "stopped": false,
+    "nativeOfficeBuilt": true,
+    "concurrency": {
+      "deterministicJobs": 1,
+      "foregroundMutations": "serialized",
+      "office": "STA, serialized"
+    },
+    "configurationRequiresReconnect": true
+  },
+  "resources": {
+    "memory": {
+      "rss": 197992448,
+      "heapTotal": 147349504,
+      "heapUsed": 93937600,
+      "external": 5235922,
+      "arrayBuffers": 1015599
+    },
+    "hostTotalMemoryBytes": 16869351424,
+    "hostFreeMemoryBytes": 3944329216,
+    "cpus": 16,
+    "cpuUsage": {
+      "user": 718000,
+      "system": 625000
+    }
+  },
+  "storage": {
+    "quotaBytes": 20000000000,
+    "usedBytes": 2060342493,
+    "availableQuotaBytes": 17939657507,
+    "categories": {
+      "documents": 643995955,
+      "images": 395119657,
+      "research": 0,
+      "temporary": 0,
+      "history": 2611128,
+      "reserved": 1018615753
+    },
+    "categoryLimits": {
+      "documents": 5000000000,
+      "images": 5000000000,
+      "research": 3000000000,
+      "temporary": 3000000000,
+      "history": 1000000000,
+      "reserved": 3000000000
+    },
+    "projectDriveFreeBytes": 22876946432,
+    "minFreeBytes": 5368709120,
+    "fileCount": 2001,
+    "scope": "Authorized roots plus protected server state; originals count but are never automatically removed"
+  },
+  "authorization": {
+    "roots": [
+      "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace",
+      "D:\\Assignment Files\\Assignment Files\\DSA"
+    ],
+    "permissions": {
+      "automaticWorkspaceEdits": true,
+      "automaticCapture": true
+    },
+    "desktop": {
+      "enabled": true,
+      "captureEnabled": true,
+      "allowedProcesses": [
+        "Notepad",
+        "chrome",
+        "Code",
+        "WINWORD",
+        "WindowsHelper",
+        "EXCEL",
+        "POWERPNT"
+      ],
+      "presenceMaxIdleSeconds": 120
+    },
+    "applicationLaunchPolicy": {
+      "automaticApproved": true,
+      "allowInstalled": true
+    }
+  },
+  "discovery": {
+    "tools": 163,
+    "duplicateNames": false,
+    "invalidRequiredSchemasExercisedBySmoke": 132,
+    "hostApprovalDeclineSmoke": "passed",
+    "stdoutProtocol": "parsed successfully by official SDK"
+  },
+  "regression": {
+    "total": 148,
+    "passed": 145,
+    "failed": 0,
+    "skipped": 3,
+    "log": "ultimate-tests-final.log",
+    "skips": [
+      "Word already running: standalone owned rendering",
+      "Word already running: owned renderer cleanup",
+      "Windows file-symlink creation privilege unavailable"
+    ]
+  },
+  "evidence": {
+    "ULTIMATE-ACCEPTANCE.json": {
+      "sha256": "e14d03d9f0a648fec75a1c6356d438932407da0d5c734010ae259025384dce85"
+    },
+    "ULTIMATE-ADVANCED-VERIFICATION.json": {
+      "sha256": "27a5c97a2e34683ddfb8782cb90654c0ef2ebc87f7bca74af1bb0cbc53ccd907"
+    },
+    "ULTIMATE-OFFICE-EXTRAS.json": {
+      "sha256": "864fcfbe1ed8a6a16c4b8a98532beaf22a4816c909cf7fe8ed56bc7b5608772d"
+    },
+    "ULTIMATE-OFFICE-EXPORTS.json": {
+      "sha256": "57cc07de52067f823892ed3b41f8c41501b4a4405584dcd45c146b1f391c9d24"
+    },
+    "ULTIMATE-RECOVERY-VERIFICATION.json": {
+      "sha256": "a3c4a217b7d580bab3aa4021fa8d0896049b19f30422280d53ea7fb85fae9d0c"
+    },
+    "ULTIMATE-CODING-VERIFICATION.json": {
+      "sha256": "84c9851eb30f8b0aea553a2f46a24c0dad47b7f661e3206c8cb2f2b0cac089de"
+    },
+    "ULTIMATE-POLICY-VERIFICATION.json": {
+      "sha256": "096410c97d0929059c80fe95e7260012e774a96534499c5ea1043c1e4c6fd7b8"
+    },
+    "DASHBOARD-VERIFICATION.json": {
+      "sha256": "f7f1bbf78c895e389c9d73a3f0327ab586fe2d9c32ec9c21381d1a53a2e6a365"
+    },
+    "VSCODE-CLI-VERIFICATION.json": {
+      "sha256": "c109482d74f351f6013491603cf6000e2a97f039cdc2ab7d064b5424e459fc4c"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\Sample-Assignment.docx",
+      "bytes": 80545,
+      "sha256": "c1b6356006bbdd480bbe5f1defa5fdc092047ccc083e4e4697d3254aa32bc24e"
+    },
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\Sample-Assignment.pdf",
+      "bytes": 120428,
+      "sha256": "430f7f62108d34003f0289e3e1fbe332c125223b3760665926db7263234165a0"
+    },
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\actual-word-window.png",
+      "bytes": 62982,
+      "sha256": "1eeb7a9a5212f963e9bfd4eebd71fa8f654f86912e1112bf18690b6621c6dbde"
+    },
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\actual-dashboard-final.png",
+      "bytes": 28249,
+      "sha256": "4de28eb0274a9a1385a02017327b4fbcfe8d2d43192269956b485613a4557490"
+    },
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\verified-current-page.png",
+      "bytes": 93541,
+      "sha256": "397764955b366bd767797bf2df91c116c77d9b62e235d2e33da64a9733825e7b"
+    },
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\final-excel-export.pdf",
+      "bytes": 162295,
+      "sha256": "de0feeb66b9b7c2f2a10d14d80a4421c1dfa313fb93c20e58b080a4e35a48911"
+    },
+    {
+      "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\final-powerpoint-export.pdf",
+      "bytes": 86705,
+      "sha256": "4b880a24a428e0acf182ba61d3e62a3fbd833699cdf1615462c16c73f8b0f892"
+    }
+  ],
+  "academicSmoke": {
+    "stdio": true,
+    "formats": [
+      "docx",
+      "pdf",
+      "xlsx",
+      "pptx"
+    ],
+    "formulaValue": 6,
+    "sourcesPreserved": true,
+    "completionGate": "blocked pending real technical/layout review",
+    "log": "ultimate-academic-final.log"
+  },
+  "codex": {
+    "configurationPath": "C:\\Users\\Hajzzy\\.codex\\config.toml",
+    "registeredTransport": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\dist\\index.js"
+      ],
+      "cwd": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp",
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 120
+    },
+    "existingServers": [
+      "node_repl",
+      "openaiDeveloperDocs",
+      "windows_laptop"
+    ],
+    "reconnectRequiredForCurrentChat": false
+  },
+  "limits": {
+    "individualFileBytes": 2147483648,
+    "binaryProcessingBytes": 268435456,
+    "officeXmlBytes": 41943040,
+    "extractedTextCodeUnits": 2500000,
+    "quotaIsApplicationLevel": true,
+    "otherAIProvidersInstalled": 0
+  },
+  "notVerified": [
+    "Each tool success path in every application",
+    "VS Code active/unsaved editor buffers and visible line position",
+    "Screen/region capture variants",
+    "All dashboard buttons/floating-panel interaction",
+    "Production Undo/restore human dialogs (fixture callbacks only)",
+    "MySQL/PostgreSQL live services"
+  ],
+  "notImplemented": [
+    "Universal private-state control of every application",
+    "PowerPoint native chart-data adapter",
+    "OS sandbox for arbitrary untrusted code",
+    "Additional AI reasoning after Codex disconnect"
+  ],
+  "connectedCodexSession": {
+    "verifiedAt": "2026-11-04",
+    "connection": "Actual tools in this Codex chat, not a standalone test client",
+    "health": {
+      "version": "3.0.0",
+      "transport": "stdio",
+      "reasoning": "Codex host only",
+      "pid": 15704,
+      "uptimeSeconds": 60,
+      "stopped": false,
+      "nativeOfficeBuilt": true,
+      "concurrency": {
+        "deterministicJobs": 1,
+        "foregroundMutations": "serialized",
+        "office": "STA, serialized"
+      },
+      "configurationRequiresReconnect": true
+    },
+    "resources": {
+      "memory": {
+        "rss": 155271168,
+        "heapTotal": 81035264,
+        "heapUsed": 79110896,
+        "external": 5102854,
+        "arrayBuffers": 882531
+      },
+      "hostTotalMemoryBytes": 16869351424,
+      "hostFreeMemoryBytes": 7818518528,
+      "cpus": 16,
+      "cpuUsage": {
+        "user": 1453000,
+        "system": 1078000
+      }
+    },
+    "tools": 163,
+    "storage": {
+      "quotaBytes": 20000000000,
+      "usedBytes": 2060284813,
+      "availableQuotaBytes": 17939715187,
+      "categories": {
+        "documents": 643995955,
+        "images": 395119657,
+        "research": 0,
+        "temporary": 0,
+        "history": 2553448,
+        "reserved": 1018615753
+      },
+      "categoryLimits": {
+        "documents": 5000000000,
+        "images": 5000000000,
+        "research": 3000000000,
+        "temporary": 3000000000,
+        "history": 1000000000,
+        "reserved": 3000000000
+      },
+      "projectDriveFreeBytes": 22872395776,
+      "minFreeBytes": 5368709120,
+      "fileCount": 2001,
+      "scope": "Authorized roots plus protected server state; originals count but are never automatically removed"
+    },
+    "wordDiscovery": {
+      "authorizedDocuments": 3,
+      "attachedInstances": 1
+    },
+    "word": {
+      "target": {
+        "documentId": "bcbf80170f8d85f42c599a63f94513e935c240a48cd5c8d5f29f7c31475e025c",
+        "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\recovery-acceptance-1793800384965\\Owned-Recovery-Fixture.docx"
+      },
+      "edit": {
+        "transactionId": "669d711d-d030-4428-b6ed-b129651f396c",
+        "documentId": "bcbf80170f8d85f42c599a63f94513e935c240a48cd5c8d5f29f7c31475e025c",
+        "beforeRevision": "02640124c34721aef6705ff793d284b4d99541f06f0895355bbb9048d58be5f9",
+        "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff",
+        "applied": 1,
+        "saved": false,
+        "checkpointPath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\.state\\backups\\5ace944d-7e4a-4bb3-be4f-2683eea659a8.word.xml"
+      },
+      "save": {
+        "saved": true,
+        "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff"
+      },
+      "readback": {
+        "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff",
+        "insertedParagraph": {
+          "index": 3,
+          "start": 34,
+          "end": 141,
+          "text": "Verified through the connected Codex MCP session: native Word editing works without closing this document.",
+          "level": 10,
+          "style": "Normal",
+          "number": "",
+          "revision": "90352eed86deba59ed27a3a5023094f3af66d3c303e2f0131907035ea6d8feff"
+        },
+        "originalParagraphPreserved": true
+      }
+    },
+    "scope": "Owned recovery fixture only; personal assignment documents unchanged"
+  },
+  "result": "Actual connected Codex session verified version/catalog, native Word insertion, save and readback on an owned fixture."
+}

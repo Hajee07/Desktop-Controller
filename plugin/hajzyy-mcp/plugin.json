@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hajzyy-mcp",
+  "version": "1.0.0",
+  "description": "Connect Codex to Hajzzy's existing authorized Windows Laptop Control MCP on this Windows laptop.",
+  "author": { "name": "Hajzzy" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Hajzyy-MCP",
+        "shortDescription": "Control my Windows laptop",
+        "longDescription": "Use the existing local Windows Laptop Control MCP for authorized files, Office documents, application windows, browser testing, development tasks and persistent task status.",
+        "developerName": "Hajzzy",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": [
+          "Show what Hajzyy-MCP can access on this laptop.",
+          "Inspect my authorized assignment files and continue my task.",
+          "Test my local website using the approved browser tools."
+        ]
+      }
+    }
+  }
+}

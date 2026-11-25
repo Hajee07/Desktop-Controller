@@ -1,0 +1,12 @@
+{
+  "name": "hajzyy-mcp",
+  "version": "1.1.0",
+  "description": "Work with authorized Windows projects and live Office documents through the locally registered Windows Laptop Control MCP.",
+  "author": { "name": "Hajzzy" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hajzyy-MCP",
+    "shortDescription": "Use your local Windows MCP",
+    "defaultPrompt": ["Use Hajzyy-MCP to show my authorized project folders."]
+  }
+}

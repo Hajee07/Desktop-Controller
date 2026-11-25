@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "sessionId": "d3da0b89-f5ed-423f-b03d-3def25e9715a",
+  "checks": [
+    {
+      "name": "SPSS tool schema validation",
+      "status": "PASS",
+      "detail": 69
+    },
+    {
+      "name": "Session and command discovery gateways",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_get_version",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_list_modules",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_list_procedures",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_check_license_features",
+      "status": "PASS"
+    },
+    {
+      "name": "Native extension discovery",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_execute_extension",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_run_procedure",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_create_variable",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_recode_variable",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_select_cases",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_filter_cases",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_transform_data",
+      "status": "PASS"
+    },
+    {
+      "name": "spss_aggregate_data",
+      "status": "PASS"
+    },
+    {
+      "name": "Syntax files, report and output gateways",
+      "status": "PASS"
+    },
+    {
+      "name": "Cancel pending analysis and recover unchanged checkpoint",
+      "status": "PASS"
+    },
+    {
+      "name": "MCP process restart recovery",
+      "status": "PASS"
+    }
+  ]
+}

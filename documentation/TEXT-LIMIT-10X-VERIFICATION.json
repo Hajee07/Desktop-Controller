@@ -1,0 +1,32 @@
+{
+  "oldCharacters": 250000,
+  "newCharacters": 2500000,
+  "multiplier": 10,
+  "build": "passed",
+  "focusedTests": {
+    "passed": 33,
+    "failed": 0
+  },
+  "actualSource": {
+    "path": "D:\\Assignment Files\\Assignment Files\\DSA\\DSA.docx",
+    "sha256": "dca1143f799d0a54922c110f021b8566ccd8063790b27482d3702173114f75ff",
+    "unchanged": true
+  },
+  "results": {
+    "filesystem_read": {
+      "characters": 277041,
+      "truncated": false,
+      "durationMs": 369
+    },
+    "academic_document_extract": {
+      "characters": 272233,
+      "segments": 882,
+      "extractionVersion": 2,
+      "textLimitWarning": false,
+      "durationMs": 666
+    }
+  },
+  "restartRequired": true,
+  "otherLimits": "Per-segment, segment count, file/XML size, image and host output/context budgets unchanged",
+  "indexRecovery": "Canonical extraction identity v2 withholds stale v1 index results until rebuild; task history retained"
+}

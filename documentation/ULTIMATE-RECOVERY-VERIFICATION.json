@@ -1,0 +1,14 @@
+{
+  "root": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\recovery-acceptance-1793800384965",
+  "scope": "Actual native Word on a newly generated owned fixture. Protected Undo/restore use a test confirmation callback; this does not verify production dialog approval.",
+  "checks": {
+    "checkpoint": true,
+    "nativeUndo": true,
+    "checkpointRestoreVerified": true,
+    "workerReconnectRetainsOpenWord": true,
+    "samePathOpenReusesDocument": true
+  },
+  "readOnlyCheckpointRetries": 1,
+  "protectedTestConfirmations": 2,
+  "completed": true
+}

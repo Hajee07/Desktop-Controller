@@ -1,0 +1,12 @@
+{
+  "scope": "Actual SDK STDIO calls on newly owned workspace/non-workspace fixture files only.",
+  "checks": {
+    "workspaceEditMoveRenameWithoutRepeatedElicitation": true,
+    "backupOriginalVerified": true,
+    "nonWorkspaceOriginalStillRequiresApproval": true,
+    "hostDenialPreservesOriginal": true
+  },
+  "hostDeclines": 1,
+  "localDialog": "Not opened: host declined the protected operation",
+  "completed": true
+}

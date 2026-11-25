@@ -1,0 +1,29 @@
+{
+  "records": [
+    {
+      "language": "javascript",
+      "status": "passed",
+      "stdout": "5\n",
+      "sourceUnchanged": true,
+      "reportPath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\coding\\run-javascript\\coding-verification.json"
+    },
+    {
+      "language": "python",
+      "status": "passed",
+      "stdout": "5\r\n",
+      "sourceUnchanged": true,
+      "reportPath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\coding\\run-python\\coding-verification.json"
+    },
+    {
+      "language": "java",
+      "status": "passed",
+      "stdout": "5\r\n",
+      "sourceUnchanged": true,
+      "reportPath": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\coding\\run-java\\coding-verification.json"
+    }
+  ],
+  "confirmationCallbacks": 3,
+  "approvalMode": "Owned fixture library harness; production host/local dialogs remain enforced",
+  "elevated": false,
+  "osSandbox": false
+}

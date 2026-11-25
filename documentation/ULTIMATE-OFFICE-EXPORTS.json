@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "excel_fixtureInitiallyOpen": false,
+    "excel_properties": {
+      "document": {
+        "documentId": "920e05d6f0375fef7267dca8d476308f3a9d46abc5e813275cc22adb85ffaafc",
+        "name": "Sample-Workbook.xlsx",
+        "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\Sample-Workbook.xlsx",
+        "saved": true,
+        "windowId": 132944
+      },
+      "sheets": [
+        {
+          "name": "Report",
+          "usedRange": "$A$1:$B$4"
+        }
+      ]
+    },
+    "excel_pdf_export": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\final-excel-export.pdf",
+    "powerpoint_fixtureInitiallyOpen": true,
+    "powerpoint_properties": {
+      "document": {
+        "documentId": "47e71d0182ba374cafa1c663e245a3c57835afeb5d1b2b60ea725991de814557",
+        "name": "Sample-Presentation.pptx",
+        "path": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\Sample-Presentation.pptx",
+        "saved": true,
+        "windowId": 0
+      },
+      "sheets": []
+    },
+    "powerpoint_pdf_export": "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\workspace\\ultimate-final-1793797047092\\final-powerpoint-export.pdf"
+  },
+  "scope": "Actual properties/PDF export on owned acceptance workbook and presentation only. Absent fixture documents are explicitly reopened; existing user documents are untouched.",
+  "completed": true
+}

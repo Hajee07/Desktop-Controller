@@ -1,0 +1,10 @@
+# Actual installed STDIO transport; keep the scoped tool policies already in your Codex config.
+[mcp_servers.windows_laptop]
+command = "C:\\Program Files\\nodejs\\node.exe"
+args = [
+  "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp\\dist\\index.js"
+]
+cwd = "C:\\Users\\Hajzzy\\Documents\\ChatGPT\\Hajzzy!!-MCP 2\\windows-laptop-control-mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+default_tools_approval_mode = "prompt"

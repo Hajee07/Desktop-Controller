@@ -1,0 +1,50 @@
+{
+  "configurationVerifiedViaFreshStdio": true,
+  "desktop": {
+    "enabled": false,
+    "captureEnabled": true,
+    "allowedProcesses": [
+      "Notepad",
+      "chrome",
+      "Code",
+      "WINWORD"
+    ],
+    "presenceMaxIdleSeconds": 120
+  },
+  "build": "passed",
+  "tests": {
+    "passed": 20,
+    "failed": 0,
+    "skippedNativeBridge": 1
+  },
+  "actualScreenshot": "Not taken: this verification did not capture personal application content. Each screenshot still requires its normal approval and an approved foreground window.",
+  "systemPolicyChanged": true,
+  "restartRequired": true,
+  "windowsPowerShellPolicy": "RemoteSigned (CurrentUser)",
+  "nativeBridgeVerification": {
+    "configuration_get": {
+      "passed": true,
+      "captureEnabled": true,
+      "desktopControlEnabled": false
+    },
+    "system_get_info": {
+      "passed": true,
+      "desktopUnlocked": true,
+      "interactive": true
+    },
+    "window_list": {
+      "passed": true,
+      "windowCount": 21
+    },
+    "window_get_active": {
+      "passed": true
+    }
+  },
+  "postPolicyWindowsTests": {
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "includesRealWindowsBridgeInformationQueries": true
+  },
+  "policyApproval": "Explicit chat approval plus separate local Windows OK confirmation accepted"
+}
